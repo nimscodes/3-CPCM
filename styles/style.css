@@ -71,8 +71,8 @@ button{
     border-radius: 46px;
 }
 
-button:hover, button:focus{
-    padding: 10px 22px;
+button:hover{
+    padding: 12px 24px;
 }
 
 @media screen and (min-width: 1024px){
@@ -165,22 +165,22 @@ button:hover, button:focus{
     color: var(--very-dark-cyan);
 }
 
-.sedans button:hover, .sedans button:focus {
+.sedans button:hover {
     color: var(--transparent-white);
     background-color: var(--bright-orange);
-    border: 1px solid var(--transparent-white);
+    outline: 1px solid var(--transparent-white);
 }
 
-.suvs button:hover, .suvs button:focus {
+.suvs button:hover{
     color: var(--transparent-white);
     background-color: var(--dark-cyan);
-    border: 1px solid var(--transparent-white);
+    outline: 1px solid var(--transparent-white);
 }
 
-.luxury button:hover, .luxury button:focus {
+.luxury button:hover{
     color: var(--transparent-white);
     background-color: var(--very-dark-cyan);
-    border: 1px solid var(--transparent-white);
+    outline: 1px solid var(--transparent-white);
 }
 
 
